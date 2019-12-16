@@ -1,0 +1,39 @@
+package xpath;
+
+public class Argconstructor {
+	
+	int x;
+	Argconstructor(int a)
+	{
+		
+	 int x=a;
+	 System.out.println(x);
+	}
+	public void sub(int x,int y)
+	{
+		
+	 int xx =x;
+	 int yy =y;
+	}
+	
+	void add(int p,int q)
+	{
+		
+		System.out.println("hgjuhku");
+	}
+	
+	public static void main(String[] args) {
+		
+		
+		
+		
+		
+		Argconstructor obj = new  Argconstructor(5);
+	
+		//obj.add(27, 8);
+		System.out.println(obj);
+		obj.add(27, 8);
+	
+	}
+
+}

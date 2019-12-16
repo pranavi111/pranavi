@@ -1,0 +1,35 @@
+package com.interfaceimplementation;
+
+class aaa1 implements aaa{
+
+	
+
+	
+
+	public void login() {
+		// TODO Auto-generated method stub
+		System.out.println("Sucessfull ");
+
+	}
+
+	public void resetPassword() {
+		// TODO Auto-generated method stub
+		System.out.println(" login");
+
+	}
+
+	public void main(String[] args) {
+		
+		 aaa1 obj = new aaa1();
+	obj.login();
+	obj.resetPassword();
+	}
+	
+
+	
+	
+
+
+}
+
+

@@ -1,0 +1,21 @@
+package collectionframework;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class List_names {
+
+	public static void main(String[] args) {
+		List<String> Frds =new ArrayList<>();
+		Frds.add( "ravali");
+		Frds.add( "ravi");
+		Frds.add( "banu");
+		Frds.add( "pranay");
+		
+		System.out.println(Frds.size());
+		
+		
+
+	}
+
+}

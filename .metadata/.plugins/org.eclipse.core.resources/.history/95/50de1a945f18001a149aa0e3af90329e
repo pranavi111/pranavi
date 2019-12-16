@@ -1,0 +1,39 @@
+package com.polymorphism;
+
+class Sampleprg {
+	
+	
+	public void Sound1()
+	{
+		
+		
+		System.out.println("kuku");
+	}
+	
+	 class Sound2 extends Sampleprg
+	{
+		 void Cat()
+		 {
+		  System.out.println("kaka");
+			
+			 }
+     }
+	
+	class Sound3 extends  Sampleprg
+		
+	{
+		
+		void Dog()
+		{
+		System.out.println("kiki");
+	    }
+	}
+	
+	public static void main(String[] args) {
+		Sampleprg  obj = new Sampleprg();
+		obj.Sound1();
+		
+
+	}
+
+}

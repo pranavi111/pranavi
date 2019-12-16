@@ -1,0 +1,31 @@
+package driver;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+		String url="https://demo.nopcommerce.com/";
+		driver.get(url);
+		driver.manage().window().maximize();
+		driver.findElement(By.linkText("Register")).click();
+		if(driver.findElement(By.id("Register")).isDisplayed())
+		{
+		driver.findElement(By.id("FirstName")).sendKeys("pranu");
+		driver.findElement(By.xpath("//input[@id='LastName']")).sendKeys("mammu");
+		driver.findElement(By.xpath("//input[@id='Email']")).sendKeys("pranumammu@gmail.com");
+		driver.findElement(By.xpath("//input[@id='Company']")).sendKeys("PM");
+		driver.findElement(By.xpath("//input[@id='Password']")).sendKeys("******");
+		driver.findElement(By.xpath("//input[@id='ConfirmPassword']")).sendKeys("******");
+		driver.findElement(By.xpath("//input[@id='register-button']"));
+		}
+		else {
+			driver.findElement(By.linkText("Register"));
+		}
+	}
+
+}

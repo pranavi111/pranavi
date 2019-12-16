@@ -1,0 +1,35 @@
+package com.interfaceimplementation;
+
+interface printable1
+{  
+	void print();  
+	}  
+interface printable2
+{  
+	void show();  
+	}  
+
+class Testclass implements printable1,printable2
+{  
+	public void print()
+	{
+		System.out.println("bye");
+		 
+	}
+	public void show()
+	{
+		System.out.println("bye1");
+		 
+	}
+	
+	
+	
+	public static void main(String args[]){  
+		Testclass obj = new Testclass();  
+		obj.print(); 
+		obj.show();
+		 }  
+		}  
+
+
+

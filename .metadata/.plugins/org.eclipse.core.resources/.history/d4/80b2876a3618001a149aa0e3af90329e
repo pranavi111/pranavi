@@ -1,0 +1,5 @@
+package com.interfaceimplementation;
+
+public interface printable3 {
+
+}

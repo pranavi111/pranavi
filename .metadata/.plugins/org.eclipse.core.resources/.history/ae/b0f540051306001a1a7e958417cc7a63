@@ -1,0 +1,17 @@
+package collectionframework;
+
+public class HashSet {
+
+	public static void main(String[] args) {
+		HashSet abc = new HashSet();
+         abc.add(1);
+         System.out.println(abc);
+        
+	}
+
+	private void add(int i) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+package collectionframework;
+
+
+import java.util.Collections;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
+import java.util.List;
+
+
+
+
+
+public class List {
+
+	public static void main(String[] args)
+	{
+		List<String> emp_names=new ArrayList<>();
+
+	}
+
+}

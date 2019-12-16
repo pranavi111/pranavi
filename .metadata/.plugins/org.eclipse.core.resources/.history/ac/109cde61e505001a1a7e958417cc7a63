@@ -1,0 +1,18 @@
+package collectionframework;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Hashmap {
+
+	public static void main(String[] args) {
+		Map<String,Integer> abc = new HashMap<String,Integer>();
+		 abc.put("vvv",1);
+		 abc.put("sss",2);
+		 abc.put("ddd",3);
+		 System.out.println(abc);
+		
+
+	}
+
+}

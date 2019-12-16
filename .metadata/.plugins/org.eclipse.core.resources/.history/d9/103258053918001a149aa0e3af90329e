@@ -1,0 +1,31 @@
+package com.interfaceimplementation;
+
+
+
+public class Login  implements Interface2 {
+	
+        public void login() {
+		System.out.println("Sucessfull login");
+
+	
+
+
+	public void resetPassword() {
+		System.out.println("Reset Password");
+
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		TestingClass obj = new TestingClass();
+		
+		obj.login();
+		
+
+	//abstract void add();
+
+
+}
+}

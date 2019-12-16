@@ -1,0 +1,40 @@
+package homepage;
+
+import java.awt.List;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+
+
+public class Third {
+
+	public static void main(String[] args) {
+		System.setProperty("WebDriver.chrome.driver", "chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+	     String url = "https://www.rediff.com/";
+		driver.get(url);
+		java.util.List<WebElement> Header= driver.findElements(By.xpath("//div[@class='cell topicons']/child::a"));
+		for (WebElement Rediff_Header : Header) {
+			System.out.println(Rediff_Header.getText());
+			//java.util.List<webElement> Header2 = Driver.findElements(By.xpath(xpathExpression))
+			java.util.List<WebElement> live=driver.findElements(By.xpath("//h2[@class='live']/following-sibling::h2"));
+			for (WebElement live_s : live) {
+				System.out.println(live_s.getText());
+				java.util.List<WebElement> options=driver.findElements(By.xpath("//ul[@class='navbarul']/child::li"));
+				for (WebElement option_s : options) {
+					System.out.println(option_s.getText());
+
+		
+	}
+
+
+		
+	}
+}
+
+
+}
+}

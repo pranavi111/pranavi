@@ -1,0 +1,26 @@
+package collectionframework;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class List_names {
+
+	public static void main(String[] args) {
+		List<String> Frds =new ArrayList<>();
+		Frds.add( "ravali");
+		Frds.add( "ravi");
+		Frds.add( "banu");
+		Frds.add( "pranay");
+		
+		System.out.println(Frds.size());//output:4
+		System.out.println(Frds);//output:[ravali, ravi, banu, pranay]
+		System.out.println(Frds.get(1));//output:ravi
+		System.out.println(Frds.get(Frds.size()-3));
+		List<String> Bests = new ArrayList<>();
+		Bests .add("abc");
+		Bests .add("hgf");
+		System.out.println(Bests);//output:[abc, hgf]
+
+	}
+
+}

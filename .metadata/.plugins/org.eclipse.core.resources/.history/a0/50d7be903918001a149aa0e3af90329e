@@ -1,0 +1,12 @@
+package com.interfaceimplementation;
+
+ interface aaa {
+
+	 void login();
+
+	 void resetPassword();
+
+	//public void sinUp();
+
+	//public void forgetPassword();
+}

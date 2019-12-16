@@ -1,0 +1,37 @@
+package com.interfaceimplementation;
+
+interface Example {
+	
+	interface printable1
+	{  
+		void print(); 
+		
+		void show();
+		}
+	class Testclass implements Example
+	{  
+		public void print()
+		{
+			System.out.println("bye");
+			 
+		}
+		public void show()
+		{
+			System.out.println("bye1");
+			 
+		}
+		
+	
+
+		public static void main(String args[]){  
+			Testclass obj = new Testclass();  
+			obj.print(); 
+			obj.show();
+			 }  
+	
+	
+	
+	
+	
+	}
+}

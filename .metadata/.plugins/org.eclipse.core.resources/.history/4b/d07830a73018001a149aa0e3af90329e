@@ -1,0 +1,6 @@
+package com.interfaceimplementation;
+
+public interface Interface1 {
+	public void mul();
+
+}

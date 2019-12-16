@@ -1,0 +1,16 @@
+package collectionframework;
+
+import java.util.HashMap;
+
+public class Prati {
+
+	public static void main(String[] args) {
+		Map<Integer,String> abc=new HashMap<Integer,String>();
+		abc.put(1,"sravani");
+		abc.put(2,"chinna");
+		System.out.println(abc.get(1));
+		
+
+	}
+
+}

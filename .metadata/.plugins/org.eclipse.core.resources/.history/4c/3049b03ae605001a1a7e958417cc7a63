@@ -1,0 +1,20 @@
+package collectionframework;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Hashmap {
+
+	public static void main(String[] args) {
+		Map<String,Integer> abc = new HashMap<String,Integer>();
+		 abc.put("vvv",1);
+		 abc.put("sss",2);
+		 abc.put("ddd",3);
+		 System.out.println(abc);    //op   {sss=2, ddd=3, vvv=1}
+		 
+		 System.out.print(abc.get(2));
+		
+
+	}
+
+}

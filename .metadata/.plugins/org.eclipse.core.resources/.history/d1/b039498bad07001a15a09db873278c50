@@ -1,0 +1,27 @@
+package patterns;
+
+public class One {
+
+	public static void main(String[] args) {
+		
+		
+		int i,j,lines = 0;
+		int spaces=(lines*2)-2;
+		
+		for(i=1;i<=10;i++)//number of lines
+		{
+		   for(lines=1;lines<=i;i++)
+		   {
+                System.out.print("*");
+	       }
+		   for(int s=1;s<=spaces;s++)
+		   {
+			   System.out.print(" ");
+		   }
+		   for(int Rlines=1;Rlines<=i;Rlines++)
+		   {
+                System.out.print("*");
+	       }
+	}
+	}
+}

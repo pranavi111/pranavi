@@ -1,0 +1,13 @@
+package collectionframework;
+
+import java.util.ArrayList;
+
+public class List_ {
+
+	public static void main(String[] args)
+	{
+		<String> emp_names=new ArrayList<String>();
+
+	}
+
+}

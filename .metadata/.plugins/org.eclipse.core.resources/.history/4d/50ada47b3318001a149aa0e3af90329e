@@ -1,0 +1,50 @@
+package com.interfaceimplementation;
+
+public class Testclass {
+
+	interface showable
+	{
+
+		void show();
+
+
+	}
+
+
+	interface printable
+	{  
+	void print();  
+	}  
+	static class A6 implements printable,showable{  
+	public void print()
+	{
+		System.out.println("Hello");
+	}  
+	  
+	public static void main(String args[]){  
+		A6 obj = new A6();  
+		obj.print();  
+		}
+
+	public void show() {
+		// TODO Auto-generated method stub
+		System.out.println("hhh");
+		
+	}  
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

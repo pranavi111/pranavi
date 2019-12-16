@@ -1,0 +1,20 @@
+package com.interfaceimplementation;
+
+public class Totalclass {
+	
+		public void login();
+
+		public void resetPassword();
+
+		public void sinUp();
+
+		public void forgetPassword();
+
+	}
+
+	public static void main(String[] args) {
+	
+
+	}
+
+}

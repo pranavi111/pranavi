@@ -1,0 +1,25 @@
+package css;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Attributes {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stubSystem.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+		
+		WebDriver driver = new ChromeDriver();                  	
+		
+		String url ="https://demo.nopcommerce.com/";              
+		
+		driver.get(url);
+	      
+	   
+	   
+	   driver.findElement(By.cssSelector("#FirstName")).sendKeys("juh");
+
+
+	}
+
+}

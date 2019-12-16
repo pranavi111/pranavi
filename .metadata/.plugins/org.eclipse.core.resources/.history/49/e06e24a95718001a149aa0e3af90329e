@@ -1,0 +1,51 @@
+package com.interfaceimplementation;
+
+
+	class Testclass1 implements Example2
+	{
+
+		public void login1() {
+			// TODO Auto-generated method stub
+			
+			System.out.println("xxx");
+			
+		}
+
+		public void resetPassword() {
+			// TODO Auto-generated method stub
+			System.out.println("eeee");
+			
+		}
+
+		public void sinUp() {
+			// TODO Auto-generated method stub	
+			System.out.println("dddd");
+			
+		}
+
+		public void forgetPassword() {
+			// TODO Auto-generated method stub
+			System.out.println("ddd");
+		}  
+		
+		
+	
+		public static void main(String args[]){ 
+			
+			Testclass1 obj2 = new Testclass1(); 
+			}
+
+		public void login() {
+			// TODO Auto-generated method stub
+			
+		}
+
+		}
+		
+	
+	
+	
+	
+	
+	}
+
